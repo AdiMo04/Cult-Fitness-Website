@@ -1,0 +1,53 @@
+.program-card{
+    flex-direction: column;
+}
+
+.pc-inner-wrapper{
+    background: var(--text-gradient-1);
+    padding: 2px;
+    border-radius: 18px;
+}
+
+.pc-content{
+    background-color: var(--background);
+    border-radius: 18px;
+    padding: 18px;
+}
+
+.pc-banner{
+    height: 250px;
+    border-radius: 18px;
+}
+
+.pc-user-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 16px 0px;
+}
+
+.pc-user-logo{
+    height: 60px;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.pc-ui-left{
+    display: flex;
+    flex: 1;
+}
+
+.pc-ui-username{
+
+    font-weight: 600;
+}
+
+.pc-ui-userhandle{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.pc-logo{
+    height: 36px;
+}
